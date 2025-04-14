@@ -1,0 +1,7 @@
+// Query to detect brute force attempts
+DeviceLogonEvents
+| where ActionType == "LogonFailed"
+| where TimeGenerated > ago(5h)
+| summarize EventCount = count() by RemoteIP, DeviceName
+| where EventCount >= 10
+| order by EventCount

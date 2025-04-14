@@ -1,0 +1,2 @@
+// NSG lockdown script for RDP restriction
+az network nsg rule create   --resource-group <your-resource-group>   --nsg-name <your-nsg-name>   --name AllowLocalRDP   --protocol Tcp   --direction Inbound   --priority 100   --source-address-prefixes <local-ip-range>   --destination-port-ranges 3389   --access Allow

@@ -1,0 +1,7 @@
+// Query to check for successful logons from suspicious IPs
+let TargetDevice = "windows-target-1";  // Replace with target VM
+let SuspectIP = "89.116.158.44";  // Replace with suspect IP
+DeviceLogonEvents
+| where ActionType == "LogonSuccess"
+| where DeviceName == TargetDevice and RemoteIP == SuspectIP
+| order by TimeGenerated desc
