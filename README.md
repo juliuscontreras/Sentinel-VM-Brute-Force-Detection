@@ -39,12 +39,3 @@ The scenario includes:
 
 ### Incident Response
 - [`NIST-800-61-Lifecycle.md`](Incident_Response/NIST-800-61-Lifecycle.md): Outlines the incident response process using NIST guidelines
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-MIT License (or replace with preferred license)
-
-## Author
-[Your Name or Organization]
