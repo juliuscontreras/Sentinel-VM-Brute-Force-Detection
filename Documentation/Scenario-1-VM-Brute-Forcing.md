@@ -25,5 +25,4 @@ This lab simulates a brute-force attack against an Azure virtual machine (VM) us
 1. Review logs for any lingering suspicious activity.
 2. Lock down RDP access using `NSG-Lockdown.kql`.
 3. Document the findings and complete the incident response steps.
-![image](https://github.com/user-attachments/assets/e548d372-edc5-4687-a6fe-f6ab84c55b55)
 
