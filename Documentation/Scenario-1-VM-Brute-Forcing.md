@@ -6,9 +6,11 @@ This lab simulates a brute-force attack against an Azure virtual machine (VM) us
 ## Part 1: Create Alert Rule (Brute Force Attempt Detection)
 1. Open Microsoft Sentinel and navigate to the "Configuration" section.
 2. Create a new custom query rule using the `Brute-Force-Detection.kql` file.
+![image](https://github.com/user-attachments/assets/55d548cd-d0c0-44b3-996e-1267473ec778)
 
 ## Part 2: Trigger Alert to Create Incident
 1. Generate multiple failed logon attempts against a test VM to trigger the alert.
+![image](https://github.com/user-attachments/assets/85d4b892-0791-4972-959a-5a9f7d469cbc)
 2. Verify the alert is firing in Sentinel.
 
 ## Part 3: Work Incident (following NIST 800-61)
