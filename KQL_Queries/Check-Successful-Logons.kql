@@ -5,3 +5,8 @@ DeviceLogonEvents
 | where ActionType == "LogonSuccess"
 | where DeviceName == TargetDevice and RemoteIP == SuspectIP
 | order by TimeGenerated desc
+
+
+DeviceLogonEvents
+| where RemoteIP in ("218.92.0.187", "194.180.48.85", "196.251.84.225", "1.194.210.131", "185.7.214.81", "14.103.132.101")
+| where ActionType != "LogonFailed"
