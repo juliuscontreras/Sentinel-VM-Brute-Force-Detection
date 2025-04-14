@@ -12,7 +12,7 @@ This lab simulates a brute-force attack against an Azure virtual machine (VM) us
 1. Generate multiple failed logon attempts against a test VM to trigger the alert.
 2. Verify the alert is firing in Sentinel. 
 
-![image](https://github.com/user-attachments/assets/85d4b892-0791-4972-959a-5a9f7d469cbc)
+  ![image](https://github.com/user-attachments/assets/85d4b892-0791-4972-959a-5a9f7d469cbc)
 
 
 ## Part 3: Work Incident (following NIST 800-61)
